@@ -1,0 +1,198 @@
+.presentation-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.slide {
+    min-height: 80vh;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: none;
+    padding: 40px;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.title-slide {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.presentation-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.thank-you-slide {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.thank-you-message {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.slide-title {
+    color: #007bff;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.slide-body h3 {
+    color: #333;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.slide-body h4 {
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.slide-body ul, .slide-body ol {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.slide-body li {
+    margin-bottom: 8px;
+}
+
+.process-table {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.process-table th {
+    background-color: #007bff !important;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.process-table td {
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.process-step {
+    background: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 0 8px 8px 0;
+}
+
+.contact-details {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.image-placeholder {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    padding: 30px;
+    text-align: center;
+    margin: 30px 0;
+    border-radius: 8px;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.slide-navigation {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+    backdrop-filter: blur(10px);
+}
+
+.slide-counter {
+    margin: 0 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .presentation-container {
+        padding: 10px;
+    }
+
+    .slide {
+        padding: 20px;
+        min-height: 70vh;
+    }
+
+    .presentation-title {
+        font-size: 1.8rem;
+    }
+
+    .presentation-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .slide-title {
+        font-size: 1.5rem;
+    }
+
+    .thank-you-title {
+        font-size: 2rem;
+    }
+
+    .process-table {
+        font-size: 0.8rem;
+    }
+}
